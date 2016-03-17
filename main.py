@@ -89,7 +89,7 @@ def main():
         LOG.info(err)
   db.set("last_id", last_id)
   db.dump()
-  return "Done!"
+  return "Done!!"
 
 if __name__ == '__main__':
     app.run(host='127.0.0.1', port=8080)
